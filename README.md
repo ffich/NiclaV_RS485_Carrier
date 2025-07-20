@@ -40,14 +40,6 @@ The **NiclaV_RS485_Carrier** is a breakout board tailored for the **Arduino Nicl
 - 📷 Smart camera networks in the field  
 - 📡 IoT endpoints for harsh environments
 
----
-
-## 🗂️ Repository Contents
-
-- 📁 `kicad/` – KiCad 9 design files  
-- 📁 `gerbers/` – Ready-to-fabricate production files  
-- 📁 `images/` – 3D renders and board pictures  
-- 📄 `README.md` – This documentation
 
 ---
 
