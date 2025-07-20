@@ -46,7 +46,7 @@ The **NiclaV_RS485_Carrier** is a breakout board tailored for the **Arduino Nicl
 ## 🧪 Project Status
 
 🟢 **Ready for testing**  
-Waiting for electrical validation and RS485 bus communication testing.
+Waiting for first prototypes, electrical and functional validation and RS485 bus communication testing.
 
 ---
 
