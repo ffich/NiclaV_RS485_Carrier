@@ -1,4 +1,4 @@
-# RS485 LED Controller for Arduino Nicla Vision (MicroPython)
+# RS485 LED Controller Example
 
 This project demonstrates how to use **RS485 communication** with an **Arduino Nicla Vision** running **MicroPython**, controlling a **LED** via commands received over RS485.  
 
@@ -43,10 +43,10 @@ This module handles:
 
 ## Hardware Setup
 
-- **Arduino Nicla Vision** mounted on a carrier board with RS485 transceiver.
+- **Arduino Nicla Vision** mounted on the NiclaVCarrier
 - **D0** → DE/RE pin of RS485 transceiver (direction control).
-- **D3** → LED (with resistor to GND).
-- RS485 A/B lines connected to RS485 network.
+- **D3** → User LED
+- **RS485 A/B lines** connected to RS485 network.
 
 ---
 
@@ -54,7 +54,7 @@ This module handles:
 
 1. Upload `rs485.py` and `main.py` to the Nicla Vision.
 2. Connect to RS485 network.
-3. Send `led=1` or `led=0` from another RS485 device to control the LED.
+3. Send `led=1` or `led=0` from another RS485 device to control the LED (in the project you'll find a Node-RED flow example, I used the wavesgare RS485 USB dongle for testing).
 
 ---
 
@@ -62,4 +62,3 @@ This module handles:
 
 - Ensure **proper RS485 termination resistors** if using long cables.
 - Add a **delay (10–20ms)** between sending commands if multiple devices share the bus.
-- For robustness, consider adding **start/stop markers** or **checksums**.
