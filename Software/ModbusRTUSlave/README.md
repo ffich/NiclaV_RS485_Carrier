@@ -1,4 +1,4 @@
-# Modbus RTU LED Controller for Arduino Nicla Vision (MicroPython)
+# Modbus LED Controller Example
 
 This project demonstrates how to implement a **Modbus RTU Slave** over **RS485** using the **Arduino Nicla Vision Carrier** with **MicroPython**.  
 It allows controlling an LED (on **D3**) via Modbus RTU commands, providing feedback and debug information through the serial console.  
