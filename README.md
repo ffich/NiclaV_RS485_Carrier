@@ -52,7 +52,8 @@ Waiting for first prototypes, electrical and functional validation and RS485 bus
 
 ## 📸 Preview
 
-<img width="681" height="546" alt="image" src="https://github.com/user-attachments/assets/7ae6fdf6-b9c5-4b90-a668-05fe2f36122e" />
+<img width="880" height="615" alt="image" src="https://github.com/user-attachments/assets/4858eebf-ad70-43ed-a779-6ae5d827c3ba" />
+
 
 
 ---
